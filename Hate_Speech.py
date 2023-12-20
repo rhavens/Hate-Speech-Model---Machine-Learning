@@ -18,8 +18,6 @@ test_id = test_data['id']
 X_train = train_data['sentence']
 y_train = train_data['label']
 X_test = test_data['sentence']
-/kaggle/input/csse4375-assignment1/4375train.csv
-/kaggle/input/csse4375-assignment1/4375test.csv
 
 # Split the data into training and validation sets
 X_train_data, X_val_data, y_train_data, y_val_data = train_test_split(X_train, y_train)
